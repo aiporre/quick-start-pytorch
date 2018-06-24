@@ -44,6 +44,5 @@ for i in range(1,5000):
     # optiminaztion
     model.zero_grad()
     loss.backward()
-    
     opt.step()
 #mode.zero_grad() # put grad to zero
